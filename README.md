@@ -1,13 +1,21 @@
 # Video Games Sales Analysis
 
 
-## Credit Risk Analysis Report
+## Introduction
+This Project aimed to analyze and visualize Video Games Sales Data using machine learning (ML) amongst other technologies.
+We have made predictions on Global Sales for Video Games using Neural Networks and Classical Learning. The Machine learning libraries used were: Scikit-Learn, abcd,. We utilized Tableau to create some visualizations along with Time Series Graphs using Matplotlib.
+The dataset used in this project was retrieved from https://www.kaggle.com/datasets/gregorut/videogamesales.
 
-### Analysis Overview
-The purpose of this Analysis is to find out how reliable money borrowers are on behalf of a lending services company. evaluate a model based on loan risk using various techniques. I've evaluated a model based on loan risk with the dataset of historical lending activity from the previously mentioned company.
-My goal is to determine the healthy loans and non-healthly. For this, I used a Logistic Regression tool for my machine learning model since it's the most efficiently used model to identify a target variable.
-After I split the original data by training and testing sets, I analyzed the value_counts and determined that the data was imbalanced: Healthy Loans = 75,036 and non-healthy loans = 2,500.
-I then analyzed the value_counts again, but this time I split the resampled data. This resulted in a balanced data and the Healthly Loans = 56,271 and non-healthy loans = 56,271.
+
+
+
+### Analysis
+The very first attempt involved using a linear regression which resulted in an extremely low score of 0.15056839384958853. This was due to the dataset not providing enough data for the model to make a prediction on. Moreover, ..
+
+We then utilized Logistic Regression and achieved a higher score of.
+
+
+
 
 
 ### Results:
@@ -24,7 +32,12 @@ I then analyzed the value_counts again, but this time I split the resampled data
   * The Precision Score for the The Healthy Loan Status is 100%.
   * The Recall Score for the The Healthy Loan Status is 99%.
   * The Precision Score for the The Non-Healthy Loan Status is 84%.
-  * The Recall Score for the The Non-Healthy Loan Status is 99%.
+
+
+
+### Dataset
+The data retrieved in the CSV files are from 1980 to 2020. The columns of focus were Platform, Year, Genre, Publisher, NA Sales, EU Sales, JP Sales, and Global Sales.
+<p>
 
 
 ### Summary:
