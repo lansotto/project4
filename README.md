@@ -2,15 +2,21 @@
 
 
 ## Introduction
-This Project aimed to analyze and visualize Video Games Sales Data using machine learning (ML) amongst other technologies.
-We have made predictions on Global Sales for Video Games using Neural Networks and Classical Learning. The Machine learning libraries used were: Scikit-Learn, abcd,. We utilized Tableau to create some visualizations along with Time Series Graphs using Matplotlib.
-The dataset used in this project was retrieved from https://www.kaggle.com/datasets/gregorut/videogamesales.
-
+This Project aimed to analyze and visualize Video Games Sales Data using machine learning (ML) amongst other technologies. The purpose was to classify whether or not a Video Game would be considered a Hit, which is Sales of $100,000 or higher.
+We have made predictions using Neural Networks and Classical Learning. The Machine learning libraries used were: Scikit-Learn, keras-tuner, Matplotlib, Pandas, TensorFlow. We also utilized Tableau to create visualizations along with Time Series Graphs using Matplotlib.
 
 
 
 ### Analysis
-The very first attempt involved using a linear regression which resulted in an extremely low score of 0.15056839384958853. This was due to the dataset not providing enough data for the model to make a prediction on. Moreover, ..
+#### Supervised Learning - Regression
+The very first attempt involved using a linear regression model which resulted in an extremely low score of 0.151. This may be in part due to the dataset not having enough features for the model to make a prediction on. This was furthur depicted in the Time Series Graphs made.
+
+#### Supervised Learning - Classification
+
+
+
+#### Neural Networks - Convolutional Neural Networks
+
 
 We then utilized Logistic Regression and achieved a higher score of.
 
@@ -33,7 +39,8 @@ We then utilized Logistic Regression and achieved a higher score of.
 
 
 ### Dataset
-The data retrieved in the CSV files are from 1980 to 2020. The columns of focus were Platform, Year, Genre, Publisher, NA Sales, EU Sales, JP Sales, and Global Sales.
+The dataset used in this project was retrieved from https://www.kaggle.com/datasets/gregorut/videogamesales.
+The data retrieved in the CSV files ranges from 1980 to 2020. The columns of focus were Platform, Year, Genre, Publisher, NA Sales, EU Sales, JP Sales, and Global Sales.
 <p>
 
 
