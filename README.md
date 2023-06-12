@@ -15,9 +15,6 @@ The very first attempt involved using a linear regression which resulted in an e
 We then utilized Logistic Regression and achieved a higher score of.
 
 
-
-
-
 ### Results:
 #### Model 1, Logistic Regression Model - Original Data, Imbalanced.
   * The Balanced Accuracy Score of the Model is 0.9520479254722232 which is 95%.
