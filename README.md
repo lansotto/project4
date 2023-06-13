@@ -16,45 +16,45 @@ The data retrieved in the CSV files ranges from 1980 to 2020. The columns of foc
 
 
 ## Visualizations
-#### Sales by Genre
+### Sales by Genre
 The graphs below show Game Sales over top 5 Genres.
  ![image](https://github.com/lansotto/project4/assets/119235680/b443bcfe-f757-49fd-b799-361647779f98)
 ![image](https://github.com/lansotto/project4/assets/119235680/710035c9-52e0-40b2-b1b0-a2df2e19dc52)
 <p>
  
- #### Time Series
+ ### Time Series
 The graph below shows Global Sales of all Genres over time.
  ![image](https://github.com/lansotto/project4/assets/119235680/81c7c852-1f99-4c28-83d9-e6e484ebcab2)
 <p>
 
 ## Analysis
-#### Supervised Learning - Regression
+### Supervised Learning - Regression
 The very first attempt involved using a linear regression model which resulted in an extremely low score of **0.151.** This may be in part due to the dataset not having enough features for the model to make a prediction on. This was also depicted in the seaborn pair grid below.
  ![image](https://github.com/lansotto/project4/assets/119235680/e6882daa-3ab2-4c65-b733-5fbff1bda293)
 
 
-#### Supervised Learning - Classification
+### Supervised Learning - Classification
 The second attempt utilized a logistic regression model. We had the following labels for our hits: **0 = Sales less than $100k, 1 = Sales equal to or more than $100k.**
 As shown below, the Imbalanced Model yielded an Accuracy score of **96.2%** wherease the RandomOverSampler Model yielded an Accuracy score of **92.7%**
  
-Imbalanced Testing Classification Report  
+#### Imbalanced Testing Classification Report  
 ![image](https://github.com/lansotto/project4/assets/119235680/f37f07c2-9aa0-4f40-854d-745c50dc16b0)
 <p>
  
-RandomOverSampler Testing Classification Report
+#### RandomOverSampler Testing Classification Report
 ![image](https://github.com/lansotto/project4/assets/119235680/108f30cc-8b31-4b3a-920b-e316294fd933)
 
 
 <p>
 
-#### Neural Networks - Convolutional Neural Networks
+### Neural Networks - Convolutional Neural Networks
 Lastly, we used Neural Networks to compare traditional vs. deep machine learning. The Best Value Accuracy score is **96.5%.**
  
-Hyperparameter Optimization
+#### Hyperparameter Optimization
  
  ![image](https://github.com/lansotto/project4/assets/119235680/1fe424b3-66c6-45c5-ad07-b4419caff5cc)
 
- Results
+ #### Results
  
  ![image](https://github.com/lansotto/project4/assets/119235680/0cd58b49-06c1-4205-890d-6563472aeb13)
 
