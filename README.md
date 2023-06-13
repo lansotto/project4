@@ -40,8 +40,10 @@ As shown below, the Imbalanced Model yielded an Accuracy score of **96.2%** wher
 Imbalanced Testing Classification Report  
 ![image](https://github.com/lansotto/project4/assets/119235680/f37f07c2-9aa0-4f40-854d-745c50dc16b0)
 <p>
+ 
 RandomOverSampler Testing Classification Report
- ![image](https://github.com/lansotto/project4/assets/119235680/ab121d68-23d6-4e47-90cf-b65996da0251)
+![image](https://github.com/lansotto/project4/assets/119235680/108f30cc-8b31-4b3a-920b-e316294fd933)
+
 
 <p>
 
