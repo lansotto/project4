@@ -8,6 +8,7 @@ We have made predictions using Neural Networks and Classical Learning. The Machi
 
 ### Dataset
 The dataset used in this project was retrieved from https://www.kaggle.com/datasets/gregorut/videogamesales.
+
 ![image](https://github.com/lansotto/project4/assets/119235680/6cb994c7-212c-41e8-b610-0ea544754bd3)
 
 The data retrieved in the CSV files ranges from 1980 to 2020. The columns of focus were Platform, Year, Genre, Publisher, and Global Sales.
@@ -19,46 +20,39 @@ The data retrieved in the CSV files ranges from 1980 to 2020. The columns of foc
 The graphs below show Game Sales over top 5 Genres.
  ![image](https://github.com/lansotto/project4/assets/119235680/b443bcfe-f757-49fd-b799-361647779f98)
 ![image](https://github.com/lansotto/project4/assets/119235680/710035c9-52e0-40b2-b1b0-a2df2e19dc52)
-
+<p>
  
  #### Time Series
 The graph below shows Global Sales of all Genres over time.
  ![image](https://github.com/lansotto/project4/assets/119235680/81c7c852-1f99-4c28-83d9-e6e484ebcab2)
-
+<p>
 
 ### Analysis
 #### Supervised Learning - Regression
-The very first attempt involved using a linear regression model which resulted in an extremely low score of **0.151.** This may be in part due to the dataset not having enough features for the model to make a prediction on. This was also depicted in the scatter plot graph below.
+The very first attempt involved using a linear regression model which resulted in an extremely low score of **0.151.** This may be in part due to the dataset not having enough features for the model to make a prediction on. This was also depicted in the seaborn pair grid below.
  ![image](https://github.com/lansotto/project4/assets/119235680/e6882daa-3ab2-4c65-b733-5fbff1bda293)
 
 
 #### Supervised Learning - Classification
+The second attempt utilized a logistic regression model. We had the following labels for our hits: **0 = Sales less than $100k, 1 = Sales equal to or more than $100k. **
+As shown below, the Imbalanced Model yielded an Accuracy score of **96.2%** wherease the RandomOverSampler Model yielded an Accuracy score of **92.7%**
+ 
+Imbalanced Testing Classification Report  
+![image](https://github.com/lansotto/project4/assets/119235680/f37f07c2-9aa0-4f40-854d-745c50dc16b0)
 
-
+RandomOverSampler Testing Classification Report  
+![image](https://github.com/lansotto/project4/assets/119235680/6ceb60cc-cb4f-4ab0-b024-2a0c1d009eef)
+<p>
 
 #### Neural Networks - Convolutional Neural Networks
+ Lastly, we used Neural Networks to compare traditional vs. deep machine learning. The Best Value Accuracy score is **96.5%.**
+ 
+ Hyperparameter Optimization
+![image](https://github.com/lansotto/project4/assets/119235680/ebcb7330-bbb9-4eba-96a2-326d2a40604c)
+
+ Results
+ ![image](https://github.com/lansotto/project4/assets/119235680/0cd58b49-06c1-4205-890d-6563472aeb13)
 
 
-We then utilized Logistic Regression and achieved a higher score of.
-
-
-### Results:
-#### Model 1, Logistic Regression Model - Original Data, Imbalanced.
-  * The Balanced Accuracy Score of the Model is 0.9520479254722232 which is 95%.
-  * The Precision Score for the The Healthy Loan Status is 100%.
-  * The Recall Score for the The Healthy Loan Status is 99%.
-  * The Precision Score for the The Non-Healthy Loan Status is 85%.
-  * The Recall Score for the The Non-Healthy Loan Status is 91%.
-
-
-#### Model 2, Logistic Regression Model - Resampled Training Data, Balanced.
-  * The Balanced Accuracy Score of the Model is 0.9936781215845847 which is 99%.
-  * The Precision Score for the The Healthy Loan Status is 100%.
-  * The Recall Score for the The Healthy Loan Status is 99%.
-  * The Precision Score for the The Non-Healthy Loan Status is 84%.
-
-
-
-### Summary:
-I would make a recommendation to use the resampled model because it performs best. The Balanced Accuracy score of this model was 99% and the data was balanced. This indicates that the model makes lesser mistakes in identifying non-healthy loans. Lastly, this model also gives less false positives.
-
+### Conclusion:
+Based on the performances of our analysis, our recommendation for the best model would be Classification with Logistic Regression. Although Neural Networks yielded a similar score, it required a much longer time to run. Moreover, Neural Networks are more susceptible to overfitting.
