@@ -34,7 +34,7 @@ The very first attempt involved using a linear regression model which resulted i
 
 
 #### Supervised Learning - Classification
-The second attempt utilized a logistic regression model. We had the following labels for our hits: **0 = Sales less than $100k, 1 = Sales equal to or more than $100k. **
+The second attempt utilized a logistic regression model. We had the following labels for our hits: **0 = Sales less than $100k, 1 = Sales equal to or more than $100k.**
 As shown below, the Imbalanced Model yielded an Accuracy score of **96.2%** wherease the RandomOverSampler Model yielded an Accuracy score of **92.7%**
  
 Imbalanced Testing Classification Report  
@@ -51,6 +51,7 @@ RandomOverSampler Testing Classification Report
 Lastly, we used Neural Networks to compare traditional vs. deep machine learning. The Best Value Accuracy score is **96.5%.**
  
 Hyperparameter Optimization
+ 
  ![image](https://github.com/lansotto/project4/assets/119235680/1fe424b3-66c6-45c5-ad07-b4419caff5cc)
 
  Results
