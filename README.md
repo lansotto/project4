@@ -6,7 +6,7 @@ This Project aimed to analyze and visualize Video Games Sales Data using machine
 We have made predictions using Neural Networks and Classical Learning. The Machine learning libraries used were: Scikit-Learn, keras-tuner, Matplotlib, Pandas, TensorFlow. We also utilized Tableau to create visualizations along with Time Series Graphs using Matplotlib.
 
 
-### Dataset
+## Dataset
 The dataset used in this project was retrieved from https://www.kaggle.com/datasets/gregorut/videogamesales.
 
 ![image](https://github.com/lansotto/project4/assets/119235680/6cb994c7-212c-41e8-b610-0ea544754bd3)
@@ -15,7 +15,7 @@ The data retrieved in the CSV files ranges from 1980 to 2020. The columns of foc
 <p>
 
 
-### Visualizations
+## Visualizations
 #### Sales by Genre
 The graphs below show Game Sales over top 5 Genres.
  ![image](https://github.com/lansotto/project4/assets/119235680/b443bcfe-f757-49fd-b799-361647779f98)
@@ -27,7 +27,7 @@ The graph below shows Global Sales of all Genres over time.
  ![image](https://github.com/lansotto/project4/assets/119235680/81c7c852-1f99-4c28-83d9-e6e484ebcab2)
 <p>
 
-### Analysis
+## Analysis
 #### Supervised Learning - Regression
 The very first attempt involved using a linear regression model which resulted in an extremely low score of **0.151.** This may be in part due to the dataset not having enough features for the model to make a prediction on. This was also depicted in the seaborn pair grid below.
  ![image](https://github.com/lansotto/project4/assets/119235680/e6882daa-3ab2-4c65-b733-5fbff1bda293)
@@ -55,8 +55,9 @@ Hyperparameter Optimization
  ![image](https://github.com/lansotto/project4/assets/119235680/1fe424b3-66c6-45c5-ad07-b4419caff5cc)
 
  Results
+ 
  ![image](https://github.com/lansotto/project4/assets/119235680/0cd58b49-06c1-4205-890d-6563472aeb13)
 
 
-### Conclusion:
+## Conclusion:
 Based on the performances of our analysis, our recommendation for the best model would be Classification with Logistic Regression. Although Neural Networks yielded a similar score, it required a much longer time to run. Moreover, Neural Networks are more susceptible to overfitting.
