@@ -40,15 +40,16 @@ As shown below, the Imbalanced Model yielded an Accuracy score of **96.2%** wher
 Imbalanced Testing Classification Report  
 ![image](https://github.com/lansotto/project4/assets/119235680/f37f07c2-9aa0-4f40-854d-745c50dc16b0)
 <p>
-RandomOverSampler Testing Classification Report  
-![image](https://github.com/lansotto/project4/assets/119235680/6ceb60cc-cb4f-4ab0-b024-2a0c1d009eef)
+RandomOverSampler Testing Classification Report
+ ![image](https://github.com/lansotto/project4/assets/119235680/ab121d68-23d6-4e47-90cf-b65996da0251)
+
 <p>
 
 #### Neural Networks - Convolutional Neural Networks
 Lastly, we used Neural Networks to compare traditional vs. deep machine learning. The Best Value Accuracy score is **96.5%.**
  
 Hyperparameter Optimization
-![image](https://github.com/lansotto/project4/assets/119235680/ebcb7330-bbb9-4eba-96a2-326d2a40604c)
+ ![image](https://github.com/lansotto/project4/assets/119235680/1fe424b3-66c6-45c5-ad07-b4419caff5cc)
 
  Results
  ![image](https://github.com/lansotto/project4/assets/119235680/0cd58b49-06c1-4205-890d-6563472aeb13)
