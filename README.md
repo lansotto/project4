@@ -11,7 +11,7 @@ The dataset used in this project was retrieved from https://www.kaggle.com/datas
 
 ![image](https://github.com/lansotto/project4/assets/119235680/6cb994c7-212c-41e8-b610-0ea544754bd3)
 
-The data retrieved in the CSV files ranges from 1980 to 2020. The columns of focus were Platform, Year, Genre, Publisher, and Global Sales.
+The data retrieved in the CSV files ranges from 1980 to 2020. The columns of focus were Platform, Year, Genre, Publisher, and Global Sales. This dataset was preprocessed using PySpark.
 <p>
 
 
